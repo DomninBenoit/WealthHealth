@@ -3,7 +3,7 @@ import "./style.scss";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Wealth Health</header>
+      <header className="App-header">WealthHealth</header>
     </div>
   );
 }
