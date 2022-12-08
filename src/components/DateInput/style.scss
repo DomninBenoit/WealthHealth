@@ -1,0 +1,22 @@
+label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+}
+
+.react-datepicker__current-month {
+  display: none;
+}
+.react-datepicker__month-dropdown-container {
+  padding-right: 25px;
+}
+.react-datepicker__month-read-view--down-arrow {
+  height: 5px;
+  width: 5px;
+  top: 3px;
+}
+.react-datepicker__year-read-view--down-arrow {
+  height: 5px;
+  width: 5px;
+  top: 3px;
+}
