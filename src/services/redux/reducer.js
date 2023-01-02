@@ -8,7 +8,7 @@ const initialState = {
 function reducer(state = initialState, action) {
   if (action.type === "ADD_EMPLOYES") {
     return produce(state, (draft) => {
-      draft.employes.push(action.payload);
+      draft.employes.push({ ...action.payload, id: state.employes.length + 1 });
     });
   }
 }
