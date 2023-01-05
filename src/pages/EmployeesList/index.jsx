@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { getEmployeeList } from "../../services/redux/selector";
 import "./style.scss";
 import columns from "../../services/data/columns";
-import { Tables } from "react-tables-employes";
+import Tables from "react-tables-employes";
 
 const EmployeesList = () => {
   const listEmployes = useSelector(getEmployeeList);
